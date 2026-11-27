@@ -30,17 +30,3 @@ Em uma cópia de preparação, substitua package.json e package-lock.json pelos 
 
 No OpenClaw, configure uma tarefa isolada para executar a skill verificar-dependencias e salvar um novo relatório. Expressão cron: `0 9 * * 1-5`, fuso `America/Sao_Paulo`. Use os controles de execução da sua versão e valide uma execução realmente automática antes da gravação. Consulte os logs. A API do modelo pode gerar custos.
 
-## 5. Publicar no GitHub
-
-Extraia o ZIP, abra o terminal na pasta ai-agent-security-monitor e execute:
-
-```bash
-git init
-git add .
-git commit -m "Initial educational security agent demo"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/ai-agent-security-monitor.git
-git push -u origin main
-```
-
-Crie antes um repositório vazio no GitHub e substitua SEU-USUARIO. Os cenários são pastas, não branches. Não inclua arquivos de autenticação ou relatórios com dados sensíveis.
