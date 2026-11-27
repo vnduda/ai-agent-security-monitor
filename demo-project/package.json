@@ -1,0 +1,9 @@
+{
+  "name": "security-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Projeto educacional para auditoria de dependências; não executar em produção.",
+  "dependencies": {
+    "lodash": "4.17.20"
+  }
+}
